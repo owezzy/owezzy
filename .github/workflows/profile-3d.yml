@@ -1,0 +1,53 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/profile-3d.yml
+      - settings.json
+  schedule:
+    - cron: "0 21 * * *" # Daily at 00:00 Africa/Nairobi.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: profile-3d-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: settings.json
+
+      - name: Commit and push generated image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/profile-green-animate.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "generated: update profile 3d contrib"
+            git push
+          fi
+
+      # GitHub stops firing `schedule` in a public repo after 60 days without
+      # activity; re-enabling the workflow resets that timer.
+      - name: Keep the schedule alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/${{ github.repository }}/actions/workflows/profile-3d.yml/enable"
