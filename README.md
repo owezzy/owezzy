@@ -9,7 +9,16 @@ Senior Software Engineer based in Nairobi, Kenya, with 7+ years building product
 ### Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=angular,react,nextjs,ts,go,aws,docker,kubernetes&theme=light" alt="Angular, React, Next.js, TypeScript, Go, AWS, Docker, Kubernetes" />
+  <img src="https://skillicons.dev/icons?i=angular,react,nextjs,ts,go,py,aws,docker,kubernetes&theme=light" alt="Angular, React, Next.js, TypeScript, Go, Python, AWS, Docker, Kubernetes" />
+</p>
+
+### AI stack
+
+<p>
+  <img src="https://avatars.githubusercontent.com/u/131273140?s=96&v=4" width="48" height="48" alt="CopilotKit" title="CopilotKit" />
+  <img src="https://avatars.githubusercontent.com/u/209775067?s=96&v=4" width="48" height="48" alt="AG-UI" title="AG-UI" />
+  <img src="https://avatars.githubusercontent.com/u/149120496?s=96&v=4" width="48" height="48" alt="Mastra" title="Mastra" />
+  <img src="https://avatars.githubusercontent.com/u/126733545?s=96&v=4" width="48" height="48" alt="LangChain" title="LangChain" />
 </p>
 
 ### Contributions
