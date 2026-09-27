@@ -5,6 +5,7 @@ Senior Software Engineer based in Nairobi, Kenya, with 7+ years building product
 - 💼 Senior Software Engineer at Equity Group Holdings
 - 🛠️ Founder, Owezzy Software Consultancy Ltd
 - ☸️ Currently deepening my Kubernetes skills
+- 🎓 Studying at [WorldQuant University](https://www.wqu.edu/): Applied Data Science Lab and Applied AI Fundamentals Graduate Certificate
 
 ### Tech stack
 
