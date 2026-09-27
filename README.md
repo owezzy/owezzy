@@ -1,6 +1,6 @@
 ## Hi, I'm Owezzy 👋
 
-Senior Software Engineer based in Nairobi, Kenya, with 6+ years building production web applications. I work across the stack, mostly with **Angular**, **React / Next.js**, **TypeScript** and **Go**, deployed on **AWS**.
+Senior Software Engineer based in Nairobi, Kenya, with 7+ years building production web applications. I work across the stack, mostly with **Angular**, **React / Next.js**, **TypeScript** and **Go**, deployed on **AWS**.
 
 - 💼 Senior Software Engineer at Equity Group Holdings
 - 🛠️ Founder, Owezzy Software Consultancy Ltd
