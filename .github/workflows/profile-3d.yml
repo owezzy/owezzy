@@ -36,7 +36,7 @@ jobs:
       # The action takes language colors from GitHub Linguist and has no override;
       # Python's blue (#3572A5) is too close to TypeScript's (#3178c6).
       - name: Recolor Python
-        run: sed -i 's/#3572A5/#ff8c00/gI' profile-3d-contrib/profile-green-animate.svg
+        run: sed -i 's/#3572A5/#ffb000/gI' profile-3d-contrib/profile-green-animate.svg
 
       - name: Commit and push generated image
         run: |
