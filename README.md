@@ -1,4 +1,4 @@
-## Hi, I'm Owezzy 👋
+## Hi, I'm Owen Adirah 👋
 
 Senior Software Engineer based in Nairobi, Kenya, with 7+ years building production web applications. I work across the stack, mostly with **Angular**, **React / Next.js**, **TypeScript** and **Go**, deployed on **AWS**.
 
