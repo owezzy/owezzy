@@ -1,11 +1,5 @@
-## Hi, I'm Owen Adirah 👋
-
-Senior Software Engineer based in Nairobi, Kenya, with 7+ years building production web applications. I work across the stack, mostly with **Angular**, **React / Next.js**, **TypeScript** and **Go**, deployed on **AWS**.
-
-- 💼 Senior Software Engineer at Equity Group Holdings
-- 🛠️ Founder, Owezzy Software Consultancy Ltd
-- ☸️ Currently deepening my Kubernetes skills
-- 🎓 Studying at [WorldQuant University](https://www.wqu.edu/): Applied Data Science Lab and Applied AI Fundamentals Graduate Certificate
+## Hello, I'm Owen Adirah 👋
+A senior software engineer based in Nairobi, Kenya, with over seven years of experience building scalable, production-grade web applications. Currently engineering solutions at Equity Group Holdings and leading Owezzy Software Consultancy Ltd., I specialize across the full stack using Angular, React, Next.js, TypeScript, Python, and Go, with cloud deployments on AWS. Driven by a passion for continuous growth, I am actively expanding my expertise in Kubernetes and advanced AI engineering through [WorldQuant University's](https://www.wqu.edu/) Applied Data Science and Applied AI programs.
 
 ### Tech stack
 
